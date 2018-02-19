@@ -36,4 +36,5 @@ function CreateTableFromJSON()
     var divContainer = document.getElementById("showData");
     
     divContainer.appendChild(table);
+
 } 
