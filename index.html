@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Convert JSON Data to HTML Table Example</title>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <input size = "50" type="url" id="repourl">
+    <select>
+        <option id="count">Issue_count</option>
+        <option id="branches">Branches</option>
+        <option id="contributors">Contributors</option>
+        <option id="star">Star</option>
+        <option id="commit">Commit</option>
+        <option id="trackers">Trackers</option>
+    </select>
+    <button onclick="searchfromJSON()">Search for repository details</button>
+    <p id="printrepo"></p>
+    <div id="showData"></div>
+    <script src="app2.js"></script>
+    <script src="app1.js"></script>
+    <script src="app3.js"></script>
+    <script>
+    CreateTableFromJSON();
+    </script>
+</body>
