@@ -4,6 +4,8 @@
 <head>
     <title>Convert JSON Data to HTML Table Example</title>
     <meta charset="UTF-8">
+     
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -12,11 +14,13 @@
     <select id="options"></select>
     <button onclick="searchfromJSON()">Search for repository details</button>
     <p id="printrepo"></p>
-    <div id="showData"></div>
+    <div id="showData" class="table-responsive"></div>
     <script src="app2.js"></script>
     <script src="app1.js"></script>
     <script src="app3.js"></script>
     <script src="app4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
     CreateTableFromJSON();
     createoptions();

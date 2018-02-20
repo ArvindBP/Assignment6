@@ -25,6 +25,7 @@ function searchfromJSON()
 		{
 			flag = 1;
 			repo1.style.color = "black";
+			;
 			if(document.getElementById("count").selected == true)
 			{
 				repo1.innerHTML = "Count: ";

@@ -36,5 +36,6 @@ function CreateTableFromJSON()
     var divContainer = document.getElementById("showData");
     
     divContainer.appendChild(table);
+    table.setAttribute("class","table table-bordered")
 
 } 
